@@ -1,0 +1,3 @@
+Service { 'openssh':
+  ensure => running,
+}

@@ -1,0 +1,14 @@
+{
+  "name": "puppetlabs-dummy_service",
+  "version": "0.1.0",
+  "author": "Gareth Rushgrove",
+  "summary": "Provides a dummy service implementation for use in building containers",
+  "license": "Apache-2.0",
+  "source": "https://github.com/puppetlabs/puppetlabs-dummy_service.git",
+  "project_page": "https://github.com/puppetlabs/dummy_service",
+  "issues_url": "https://github.com/puppetlabs/puppetlabs-dummy_service/issues",
+  "dependencies": [
+  
+  ],
+  "data_provider": null
+}
