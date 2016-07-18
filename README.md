@@ -29,6 +29,14 @@ Service {
 }
 ```
 
+Alternatively you can use [resource collectors](https://docs.puppet.com/puppet/4.5/reference/lang_collectors.html).
+This is useful in situations where a module explictly sets a provider
+value.
+
+```puppet
+Service <| |> { provider => dummy }
+```
+
 
 ## Demonstration
 
