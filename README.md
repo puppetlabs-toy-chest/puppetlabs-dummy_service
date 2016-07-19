@@ -2,6 +2,12 @@ A simple dummy service implementation for Puppet. Useful in contexts
 where you don't want Service resources to do anything, for example when
 building containers.
 
+[![Puppet
+Forge](https://img.shields.io/puppetforge/v/puppetlabs/dummy_service.svg)](https://forge.puppetlabs.com/puppetlabs/dummy_service)
+[![Build
+Status](https://secure.travis-ci.org/puppetlabs/puppetlabs-dummy_service.png)](http://travis-ci.org/puppetlabs/puppetlabs-dummy_service)
+
+
 ## Installation
 
 `dummy_service` is packaged as a Puppet Module, and can be installed from
