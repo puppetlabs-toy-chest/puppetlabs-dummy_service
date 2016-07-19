@@ -1,6 +1,4 @@
-Service {
-  provider => dummy
-}
+include dummy_service
 
 Service { 'openssh':
   ensure => running,

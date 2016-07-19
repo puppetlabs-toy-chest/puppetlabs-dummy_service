@@ -37,6 +37,21 @@ value.
 Service <| |> { provider => dummy }
 ```
 
+As a useful shortcut you can also just include the included class:
+
+```puppet
+include dummy_service
+```
+
+You may decide to include that in several modules and, for instance,
+gate it so that services are only clobbered when running under Docker:
+
+```puppet
+if $virtual == 'docker' {
+  include dummy_service
+}
+```
+
 
 ## Demonstration
 
