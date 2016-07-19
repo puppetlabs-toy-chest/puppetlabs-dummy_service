@@ -6,7 +6,7 @@ describe 'dummy_service' do
       let(:facts) { facts }
 
       it { should contain_class('dummy_service') }
-      it { should contain_notify('All Service resources replaced with dummy provider') }
+      it { should contain_echo('All Service resources replaced with dummy provider') }
       it do
         should contain_file('/bin/systemctl').with_ensure('link')
           .with_target('/bin/true')

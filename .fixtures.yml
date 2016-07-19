@@ -1,3 +1,5 @@
 fixtures:
+  forge_modules:
+    echo: 'ipcrm/echo'
   symlinks:
     dummy_service: "#{source_dir}"

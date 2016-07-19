@@ -25,3 +25,10 @@ group :development do
   gem 'pry'
   gem 'yard'
 end
+
+group :acceptance do
+  gem 'beaker'
+  gem 'beaker-rspec'
+  gem 'beaker-puppet_install_helper'
+  gem 'beaker_spec_helper'
+end

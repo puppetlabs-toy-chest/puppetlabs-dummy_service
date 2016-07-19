@@ -15,5 +15,5 @@ class dummy_service {
   # are not scoped to the class but to the entire run
   Service <| |> { provider => dummy }
 
-  notify { 'All Service resources replaced with dummy provider': }
+  echo { 'All Service resources replaced with dummy provider': }
 }
