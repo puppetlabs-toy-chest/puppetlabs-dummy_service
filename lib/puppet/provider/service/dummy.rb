@@ -1,12 +1,12 @@
-Puppet::Type.type(:service).provide :dummy, :parent => :base do
-  desc "Dummy service provider"
+Puppet::Type.type(:service).provide :dummy, parent: :base do
+  desc 'Dummy service provider'
 
   def startcmd
-		true
+    true
   end
 
   def stopcmd
-		true
+    true
   end
 
   def restartcmd
